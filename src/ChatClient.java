@@ -118,7 +118,7 @@ class ChatClientMessageReceiver extends Thread {
 		try {
 			String message;
 			while ((message = this.in.readUTF()) != null) {
-				System.out.println("[RKchat] " + message);
+				System.out.println("[Chat] " + message);
 			}
 		} catch (Exception e) {
 			System.err.println("[system] could not read message");
