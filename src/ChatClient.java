@@ -32,7 +32,7 @@ public class ChatClient extends Thread {
 			System.out.println(clientName);
 
 			// Define the passphrase used for loading key stores
-			String phrase = "ChangeThis";
+			String phrase = "yourStorePass";
 
 			// Load the server's public key from the key store
 			KeyStore serverKeyStore = KeyStore.getInstance("JKS");

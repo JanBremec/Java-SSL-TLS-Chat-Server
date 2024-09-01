@@ -19,7 +19,7 @@ public class ChatServer {
 		SSLServerSocket serverSocket = null;
 
 		try {
-			String passphrase = "ChangeThis"; // Passphrase for key store files
+			String passphrase = "yourStorePass"; // Passphrase for key store files
 
 			// Load the server's private key from the key store
 			KeyStore serverKeyStore = KeyStore.getInstance("JKS");
