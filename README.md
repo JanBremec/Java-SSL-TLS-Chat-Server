@@ -63,4 +63,4 @@ Before running this project, make sure you have the following:
   - All messages will be broadcast to all connected clients.
     
 ## Licence
-  See the Licence for more details.
+  See the License for more details.
